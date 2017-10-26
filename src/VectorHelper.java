@@ -73,7 +73,7 @@ public class VectorHelper
 		int []res =new int[tab.length];
 		for(int i=0;i<tab.length;i++)
 		{
-			res[i]=2*tab[i]+3;
+			res[i]=2*tab[i]+1;
 			System.out.print("res["+i+"]="+res[i]+"\n");
 		}
 		return res;
@@ -115,6 +115,10 @@ public class VectorHelper
     }
 
 //-----------------------------------------------------------------------------//   
+    /**
+     *  calcule le maximum et le minimum du vecteur tab au meme temps
+     */
+    
     public void min_max()
     {
          min=-1;
